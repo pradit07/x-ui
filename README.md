@@ -19,7 +19,9 @@ x-ui a xray panel with multi-protocol multi-user support (English Version)
 Login as root > copy paste below command to install
 
 ````
-bash <(curl -Ls https://raw.githubusercontent.com/proxykingdev/x-ui/master/install.sh)
+wget --no-check-certificate -O install https://raw.githubusercontent.com/proxykingdev/x-ui/master/install
+chmod +x install
+./install
 ````
 
 
