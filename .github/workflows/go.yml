@@ -19,4 +19,4 @@ jobs:
         go-version: 1.18
 
     - name: Build
-      run: env GOOS=linux GOARCH=arm64 go build -o prepnode_arm64
+      run: GOOS=linux GOARCH=arm64 go build
